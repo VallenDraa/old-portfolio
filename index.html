@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/icon.png" sizes="32x32">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>My Porftolio</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="screen-limit">
+            <ul class="nav hide-menu" id="menu">
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Skills</a></li>
+                <li><a href="index.html">Hobby</a></li>
+                <li> <a href="index.html">Contact</a></li> 
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+            <i class="fas fa-caret-down btn-slide" id="menu-btn"></i>
+            <div class="hero">
+                <div>
+                    <h1>Hello, My Name Is Vallen</h1>
+                    <p>Student | Computer Enthusiast</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section style="background-image: linear-gradient(white,gainsboro);" class="about">
+        <div class="col screen-limit">
+            <div class="text-col" id="col-1">
+                <h2>ABOUT ME</h2>
+                <p>My full name is Jestine Vallendra Dwi Putra. I was born in Bekasi, Indonesia on the 24<sup>th</sup> of March 2004.
+                I'm currently a 3<sup>rd</sup> year highschool student and will finish my study next year at july. I've always been
+                Passionate About Technology since I was a child and my dream job has always been to work as a software engineer.</p>
+            </div>
+            <div class="img-col" id="col-2">
+                <img src="https://source.unsplash.com/1600x900" alt="">
+            </div>
+            <!-- <div class="education">
+                <h2>MY EDUCATION</h2>
+                <div class="edu-list">
+                    <img src="img/husnayain.png" alt="">
+                    <div>
+                        <p>Kindergarten<span>2007-2010</span></p>
+                        <p>Primary 1<span>2010-2011</span> </p>
+                    </div>
+                </div>
+                <div class="edu-list">
+                    <img src="img/global.jpg" alt="">
+                    <div>
+                        <p>Primary 2-6<span>2011-2016</span></p>
+                        <p>Middleschool<span>2016-2019</span></p>
+                    </div>
+                </div>
+                <div class="edu-list">
+                    <img src="img/syafana.png" alt="">
+                    <div>
+                        <p>Highschool<span>2019-2021</span></p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skill-section" style="background-image: linear-gradient(gainsboro,rgb(224,224,224));">
+        <div class="screen-limit">
+            <h2>CODING SKILLS</h2>
+            <div class="skill">
+                <div>
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML 5</h4>
+                    <meter max="100" value="90"></meter>
+                    <p><i>90% Mastery</i></p>
+                </div>
+                <div>
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS 3</h4>
+                    <meter max="100" value="65"></meter>
+                    <p><i>65% Mastery</i></p>
+                </div>
+                <div>
+                    <i class="fab fa-js"></i>
+                    <h4>Javascript</h4>
+                    <meter max="100" value="20"></meter>
+                    <p><i>20% Mastery</i></p>
+                </div>
+                <div>
+                    <i class="fab fa-python"></i>
+                    <h4>Python</h4>
+                    <meter max="100" value="50"></meter>
+                    <p><i>50% Mastery</i></p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobby -->
+    <section class="hobby" style="background-image: linear-gradient(rgb(224,224,224), 	rgb(232,232,232));">
+        <div class="screen-limit">
+            <h2>MY HOBBIES</h2>
+            <div class="col">
+                <div class="img-col" id="col-3">
+                    <img src="https://source.unsplash.com/2560x1440" alt="">
+                </div>
+                <div class="text-col" id="col-4">
+                    <h2>Learning New Stuff</h2>
+                    <p>I have always been a curious person, new things never fail to fascinate me. I sometimes spent hours on learning world history, which is one of my interest besides computer science. Although I'm an introvert, Social behaviour studies peaked my interest as well. Learning new stuff for me is more than a hobby, it's a way of life.
+                    </p>
+                </div> 
+                <div class="text-col" id="col-5">
+                    <h2>Watching V-Tubers</h2>
+                    <p>I just like watching them. It's fun and very reinvigorative.</p>
+                </div>
+                <div class="img-col" id="col-6">
+                    <img src="./img/irys.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section style="background-image: linear-gradient(rgb(232,232,232),white);">
+        <div class="screen-limit contact">  
+            <h2>CONTACT</h2>
+           <form action="">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter Your Email">
+                <input type="text" placeholder="Enter Subject">
+                <textarea rows="10" placeholder="Enter Message"></textarea>
+                <a href="" class="submit">Send Now<i class="fas fa-paper-plane"></i></a>
+            </form> 
+            <div class="other-contact">
+                <p>Available Here As Well</p>
+                <div>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-whatsapp-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color:#303030">
+        <div class="screen-limit footer">
+            <div class="footer-cols">
+                <p>MENU</p>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Hobby</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Project</a></li>
+                </ul>
+            </div>
+            <div class="footer-cols">
+                <p>Skills</p>
+                <ul>
+                    <li><a href="">HTML 5</a</li>
+                    <li><a href="">CSS 3</a</li>
+                    <li><a href="">Javascript</a></li>
+                    <li><a href="">Python</a></li>
+                </ul>
+            </div> 
+            <div class="footer-cols">
+                <p>Project</p>
+                <ul>
+                    <li><a href="">Games</a></li>
+                    <li><a href="">Tools</a></li>
+                </ul>
+            </div>
+            <div class="footer-cols">
+                <p>Contact</p>
+                <ul>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Whatsapp</a></li> 
+                </ul>
+            </div>
+        </div> 
+        <div style="background-color:  	#282828;">
+              <h5><i class="far fa-copyright"></i>Copyright 2021 | Made By Myself</h5>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
